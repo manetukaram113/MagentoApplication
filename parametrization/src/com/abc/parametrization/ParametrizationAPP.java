@@ -12,7 +12,7 @@ public class ParametrizationAPP
 {
 	WebDriver driver;
 	@BeforeMethod
-	public void openfirefoxBrowser()
+	public void openFirefoxBrowser()
 	{
 		driver.manage().window().maximize();
 	 driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
